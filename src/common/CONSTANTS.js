@@ -52,11 +52,6 @@ const EXTERNAL_PLAYERS = [
         platforms: ['android'],
     },
     {
-        label: 'Infuse',
-        value: 'infuse',
-        platforms: ['ios'],
-    },
-    {
         label: 'VLC',
         value: 'vlc',
         platforms: ['ios', 'visionos', 'android'],
@@ -87,9 +82,9 @@ const EXTERNAL_PLAYERS = [
         platforms: ['ios', 'visionos'],
     },
     {
-        label: 'Moonplayer (VisionOS)',
-        value: 'moonplayer',
-        platforms: ['visionos'],
+        label: 'Infuse',
+        value: 'infuse',
+        platforms: ['ios', 'windows'],
     },
     {
         label: 'M3U Playlist',
