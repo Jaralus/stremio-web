@@ -52,6 +52,11 @@ const EXTERNAL_PLAYERS = [
         platforms: ['android'],
     },
     {
+        label: 'Infuse',
+        value: 'infuse',
+        platforms: ['ios'],
+    },
+    {
         label: 'VLC',
         value: 'vlc',
         platforms: ['ios', 'visionos', 'android'],
