@@ -1,8 +1,9 @@
 // Copyright (C) 2017-2023 Smart code 203358507
 
 const AddonDetailsModal = require('./AddonDetailsModal');
+const { default: BottomSheet } = require('./BottomSheet');
 const Button = require('./Button');
-const Checkbox = require('./Checkbox');
+const Toggle = require('./Toggle');
 const { default: Chips } = require('./Chips');
 const ColorInput = require('./ColorInput');
 const ContinueWatchingItem = require('./ContinueWatchingItem');
@@ -17,7 +18,7 @@ const ModalDialog = require('./ModalDialog');
 const Multiselect = require('./Multiselect');
 const { default: MultiselectMenu } = require('./MultiselectMenu');
 const { HorizontalNavBar, VerticalNavBar } = require('./NavBar');
-const PaginationInput = require('./PaginationInput');
+const { default: HorizontalScroll } = require('./HorizontalScroll');
 const { PlatformProvider, usePlatform } = require('./Platform');
 const PlayIconCircleCentered = require('./PlayIconCircleCentered');
 const Popup = require('./Popup');
@@ -25,7 +26,7 @@ const SearchBar = require('./SearchBar');
 const StreamingServerWarning = require('./StreamingServerWarning');
 const SharePrompt = require('./SharePrompt');
 const Slider = require('./Slider');
-const TextInput = require('./TextInput');
+const { default: TextInput } = require('./TextInput');
 const { ToastProvider, useToast } = require('./Toast');
 const { TooltipProvider, Tooltip } = require('./Tooltips');
 const comparatorWithPriorities = require('./comparatorWithPriorities');
@@ -50,8 +51,9 @@ const EventModal = require('./EventModal');
 
 module.exports = {
     AddonDetailsModal,
+    BottomSheet,
     Button,
-    Checkbox,
+    Toggle,
     Chips,
     ColorInput,
     ContinueWatchingItem,
@@ -66,8 +68,8 @@ module.exports = {
     Multiselect,
     MultiselectMenu,
     HorizontalNavBar,
+    HorizontalScroll,
     VerticalNavBar,
-    PaginationInput,
     PlatformProvider,
     usePlatform,
     PlayIconCircleCentered,
